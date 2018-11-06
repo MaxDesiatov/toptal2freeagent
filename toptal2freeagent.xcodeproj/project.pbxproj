@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"toptal2freeagent::toptal2freeagentPackageTests::ProductTarget" /* toptal2freeagentPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_136 /* Build configuration list for PBXAggregateTarget "toptal2freeagentPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_139 /* PBXTargetDependency */,
+			);
+			name = toptal2freeagentPackageTests;
+			productName = toptal2freeagentPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_102 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Archive+Reading.swift */; };
+		OBJ_103 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Archive+Writing.swift */; };
+		OBJ_104 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Archive.swift */; };
+		OBJ_105 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Data+Compression.swift */; };
+		OBJ_106 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Data+Serialization.swift */; };
+		OBJ_107 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Entry.swift */; };
+		OBJ_108 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* FileManager+ZIP.swift */; };
+		OBJ_115 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Package.swift */; };
+		OBJ_121 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
+		OBJ_123 /* CoreXLSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CoreXLSX::CoreXLSX::Product" /* CoreXLSX.framework */; };
+		OBJ_124 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ZIPFoundation::ZIPFoundation::Product" /* ZIPFoundation.framework */; };
+		OBJ_125 /* XMLParsing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XMLParsing::XMLParsing::Product" /* XMLParsing.framework */; };
+		OBJ_134 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_145 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XCTestManifests.swift */; };
+		OBJ_146 /* toptal2freeagentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* toptal2freeagentTests.swift */; };
+		OBJ_148 /* CoreXLSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CoreXLSX::CoreXLSX::Product" /* CoreXLSX.framework */; };
+		OBJ_149 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ZIPFoundation::ZIPFoundation::Product" /* ZIPFoundation.framework */; };
+		OBJ_150 /* XMLParsing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XMLParsing::XMLParsing::Product" /* XMLParsing.framework */; };
+		OBJ_59 /* CoreXLSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CoreXLSX.swift */; };
+		OBJ_60 /* Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Relationships.swift */; };
+		OBJ_61 /* Worksheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Worksheet.swift */; };
+		OBJ_63 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ZIPFoundation::ZIPFoundation::Product" /* ZIPFoundation.framework */; };
+		OBJ_64 /* XMLParsing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XMLParsing::XMLParsing::Product" /* XMLParsing.framework */; };
+		OBJ_74 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Package.swift */; };
+		OBJ_79 /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* DecodingErrorExtension.swift */; };
+		OBJ_80 /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* XMLDecoder.swift */; };
+		OBJ_81 /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* XMLDecodingStorage.swift */; };
+		OBJ_82 /* XMLKeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* XMLKeyedDecodingContainer.swift */; };
+		OBJ_83 /* XMLUnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* XMLUnkeyedDecodingContainer.swift */; };
+		OBJ_84 /* EncodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* EncodingErrorExtension.swift */; };
+		OBJ_85 /* XMLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* XMLEncoder.swift */; };
+		OBJ_86 /* XMLEncodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* XMLEncodingStorage.swift */; };
+		OBJ_87 /* XMLReferencingEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* XMLReferencingEncoder.swift */; };
+		OBJ_88 /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* ISO8601DateFormatter.swift */; };
+		OBJ_89 /* XMLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* XMLKey.swift */; };
+		OBJ_90 /* XMLStackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* XMLStackParser.swift */; };
+		OBJ_97 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D19A42822190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CoreXLSX::CoreXLSX";
+			remoteInfo = CoreXLSX;
+		};
+		D19A42832190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ZIPFoundation::ZIPFoundation";
+			remoteInfo = ZIPFoundation;
+		};
+		D19A42842190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "XMLParsing::XMLParsing";
+			remoteInfo = XMLParsing;
+		};
+		D19A42852190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ZIPFoundation::ZIPFoundation";
+			remoteInfo = ZIPFoundation;
+		};
+		D19A42862190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "XMLParsing::XMLParsing";
+			remoteInfo = XMLParsing;
+		};
+		D19A42872190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "toptal2freeagent::toptal2freeagent";
+			remoteInfo = toptal2freeagent;
+		};
+		D19A42882190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CoreXLSX::CoreXLSX";
+			remoteInfo = CoreXLSX;
+		};
+		D19A42892190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ZIPFoundation::ZIPFoundation";
+			remoteInfo = ZIPFoundation;
+		};
+		D19A428A2190643D004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "XMLParsing::XMLParsing";
+			remoteInfo = XMLParsing;
+		};
+		D19A428B2190643E004EA775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "toptal2freeagent::toptal2freeagentTests";
+			remoteInfo = toptal2freeagentTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"CoreXLSX::CoreXLSX::Product" /* CoreXLSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreXLSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* toptal2freeagentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toptal2freeagentTests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* CoreXLSX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreXLSX.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Relationships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relationships.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Worksheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worksheet.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/maxd/Documents/toptal2freeagent/.build/checkouts/CoreXLSX.git--7270480280767603570/Package.swift"; sourceTree = "<group>"; };
+		OBJ_23 /* Archive+Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Archive+Reading.swift"; sourceTree = "<group>"; };
+		OBJ_24 /* Archive+Writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Archive+Writing.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* Archive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Data+Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Compression.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* Data+Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
+		OBJ_28 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		OBJ_29 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/maxd/Documents/toptal2freeagent/.build/checkouts/ZIPFoundation.git-427207131576312106/Package.swift"; sourceTree = "<group>"; };
+		OBJ_34 /* DecodingErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingErrorExtension.swift; sourceTree = "<group>"; };
+		OBJ_35 /* XMLDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDecoder.swift; sourceTree = "<group>"; };
+		OBJ_36 /* XMLDecodingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDecodingStorage.swift; sourceTree = "<group>"; };
+		OBJ_37 /* XMLKeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLKeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		OBJ_38 /* XMLUnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUnkeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		OBJ_40 /* EncodingErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingErrorExtension.swift; sourceTree = "<group>"; };
+		OBJ_41 /* XMLEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLEncoder.swift; sourceTree = "<group>"; };
+		OBJ_42 /* XMLEncodingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLEncodingStorage.swift; sourceTree = "<group>"; };
+		OBJ_43 /* XMLReferencingEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLReferencingEncoder.swift; sourceTree = "<group>"; };
+		OBJ_44 /* ISO8601DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO8601DateFormatter.swift; sourceTree = "<group>"; };
+		OBJ_45 /* XMLKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLKey.swift; sourceTree = "<group>"; };
+		OBJ_46 /* XMLStackParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLStackParser.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/maxd/Documents/toptal2freeagent/.build/checkouts/XMLParsing.git--5613007270087933397/Package.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"XMLParsing::XMLParsing::Product" /* XMLParsing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLParsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ZIPFoundation::ZIPFoundation::Product" /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"toptal2freeagent::toptal2freeagent::Product" /* toptal2freeagent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = toptal2freeagent; sourceTree = BUILT_PRODUCTS_DIR; };
+		"toptal2freeagent::toptal2freeagentTests::Product" /* toptal2freeagentTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = toptal2freeagentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_123 /* CoreXLSX.framework in Frameworks */,
+				OBJ_124 /* ZIPFoundation.framework in Frameworks */,
+				OBJ_125 /* XMLParsing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_148 /* CoreXLSX.framework in Frameworks */,
+				OBJ_149 /* ZIPFoundation.framework in Frameworks */,
+				OBJ_150 /* XMLParsing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_63 /* ZIPFoundation.framework in Frameworks */,
+				OBJ_64 /* XMLParsing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* toptal2freeagentTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* toptal2freeagentTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* XCTestManifests.swift */,
+				OBJ_13 /* toptal2freeagentTests.swift */,
+			);
+			name = toptal2freeagentTests;
+			path = Tests/toptal2freeagentTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* CoreXLSX */,
+				OBJ_21 /* ZIPFoundation 0.9.6 */,
+				OBJ_31 /* XMLParsing */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* CoreXLSX */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* CoreXLSX */,
+				OBJ_20 /* Package.swift */,
+			);
+			name = CoreXLSX;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* CoreXLSX */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* CoreXLSX.swift */,
+				OBJ_18 /* Relationships.swift */,
+				OBJ_19 /* Worksheet.swift */,
+			);
+			name = CoreXLSX;
+			path = ".build/checkouts/CoreXLSX.git--7270480280767603570/Sources/CoreXLSX";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* ZIPFoundation 0.9.6 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* ZIPFoundation */,
+				OBJ_30 /* Package.swift */,
+			);
+			name = "ZIPFoundation 0.9.6";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_22 /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* Archive+Reading.swift */,
+				OBJ_24 /* Archive+Writing.swift */,
+				OBJ_25 /* Archive.swift */,
+				OBJ_26 /* Data+Compression.swift */,
+				OBJ_27 /* Data+Serialization.swift */,
+				OBJ_28 /* Entry.swift */,
+				OBJ_29 /* FileManager+ZIP.swift */,
+			);
+			name = ZIPFoundation;
+			path = ".build/checkouts/ZIPFoundation.git-427207131576312106/Sources/ZIPFoundation";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_31 /* XMLParsing */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* XMLParsing */,
+				OBJ_47 /* Package.swift */,
+			);
+			name = XMLParsing;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_32 /* XMLParsing */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_33 /* Decoder */,
+				OBJ_39 /* Encoder */,
+				OBJ_44 /* ISO8601DateFormatter.swift */,
+				OBJ_45 /* XMLKey.swift */,
+				OBJ_46 /* XMLStackParser.swift */,
+			);
+			name = XMLParsing;
+			path = ".build/checkouts/XMLParsing.git--5613007270087933397/Sources/XMLParsing";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_33 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* DecodingErrorExtension.swift */,
+				OBJ_35 /* XMLDecoder.swift */,
+				OBJ_36 /* XMLDecodingStorage.swift */,
+				OBJ_37 /* XMLKeyedDecodingContainer.swift */,
+				OBJ_38 /* XMLUnkeyedDecodingContainer.swift */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		OBJ_39 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* EncodingErrorExtension.swift */,
+				OBJ_41 /* XMLEncoder.swift */,
+				OBJ_42 /* XMLEncodingStorage.swift */,
+				OBJ_43 /* XMLReferencingEncoder.swift */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
+		OBJ_48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"toptal2freeagent::toptal2freeagent::Product" /* toptal2freeagent */,
+				"CoreXLSX::CoreXLSX::Product" /* CoreXLSX.framework */,
+				"XMLParsing::XMLParsing::Product" /* XMLParsing.framework */,
+				"toptal2freeagent::toptal2freeagentTests::Product" /* toptal2freeagentTests.xctest */,
+				"ZIPFoundation::ZIPFoundation::Product" /* ZIPFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_48 /* Products */,
+			);
+			indentWidth = 2;
+			name = "";
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* toptal2freeagent */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* toptal2freeagent */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* main.swift */,
+			);
+			name = toptal2freeagent;
+			path = Sources/toptal2freeagent;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CoreXLSX::CoreXLSX" /* CoreXLSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_55 /* Build configuration list for PBXNativeTarget "CoreXLSX" */;
+			buildPhases = (
+				OBJ_58 /* Sources */,
+				OBJ_62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_65 /* PBXTargetDependency */,
+				OBJ_67 /* PBXTargetDependency */,
+			);
+			name = CoreXLSX;
+			productName = CoreXLSX;
+			productReference = "CoreXLSX::CoreXLSX::Product" /* CoreXLSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CoreXLSX::SwiftPMPackageDescription" /* CoreXLSXPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "CoreXLSXPackageDescription" */;
+			buildPhases = (
+				OBJ_73 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreXLSXPackageDescription;
+			productName = CoreXLSXPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"XMLParsing::SwiftPMPackageDescription" /* XMLParsingPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_93 /* Build configuration list for PBXNativeTarget "XMLParsingPackageDescription" */;
+			buildPhases = (
+				OBJ_96 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLParsingPackageDescription;
+			productName = XMLParsingPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"XMLParsing::XMLParsing" /* XMLParsing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "XMLParsing" */;
+			buildPhases = (
+				OBJ_78 /* Sources */,
+				OBJ_91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLParsing;
+			productName = XMLParsing;
+			productReference = "XMLParsing::XMLParsing::Product" /* XMLParsing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ZIPFoundation::SwiftPMPackageDescription" /* ZIPFoundationPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_111 /* Build configuration list for PBXNativeTarget "ZIPFoundationPackageDescription" */;
+			buildPhases = (
+				OBJ_114 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPFoundationPackageDescription;
+			productName = ZIPFoundationPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"ZIPFoundation::ZIPFoundation" /* ZIPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildPhases = (
+				OBJ_101 /* Sources */,
+				OBJ_109 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPFoundation;
+			productName = ZIPFoundation;
+			productReference = "ZIPFoundation::ZIPFoundation::Product" /* ZIPFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"toptal2freeagent::SwiftPMPackageDescription" /* toptal2freeagentPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_130 /* Build configuration list for PBXNativeTarget "toptal2freeagentPackageDescription" */;
+			buildPhases = (
+				OBJ_133 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toptal2freeagentPackageDescription;
+			productName = toptal2freeagentPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"toptal2freeagent::toptal2freeagent" /* toptal2freeagent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_117 /* Build configuration list for PBXNativeTarget "toptal2freeagent" */;
+			buildPhases = (
+				OBJ_120 /* Sources */,
+				OBJ_122 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_126 /* PBXTargetDependency */,
+				OBJ_127 /* PBXTargetDependency */,
+				OBJ_128 /* PBXTargetDependency */,
+			);
+			name = toptal2freeagent;
+			productName = toptal2freeagent;
+			productReference = "toptal2freeagent::toptal2freeagent::Product" /* toptal2freeagent */;
+			productType = "com.apple.product-type.tool";
+		};
+		"toptal2freeagent::toptal2freeagentTests" /* toptal2freeagentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_141 /* Build configuration list for PBXNativeTarget "toptal2freeagentTests" */;
+			buildPhases = (
+				OBJ_144 /* Sources */,
+				OBJ_147 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_151 /* PBXTargetDependency */,
+				OBJ_152 /* PBXTargetDependency */,
+				OBJ_153 /* PBXTargetDependency */,
+				OBJ_154 /* PBXTargetDependency */,
+			);
+			name = toptal2freeagentTests;
+			productName = toptal2freeagentTests;
+			productReference = "toptal2freeagent::toptal2freeagentTests::Product" /* toptal2freeagentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "toptal2freeagent" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CoreXLSX::CoreXLSX" /* CoreXLSX */,
+				"CoreXLSX::SwiftPMPackageDescription" /* CoreXLSXPackageDescription */,
+				"XMLParsing::XMLParsing" /* XMLParsing */,
+				"XMLParsing::SwiftPMPackageDescription" /* XMLParsingPackageDescription */,
+				"ZIPFoundation::ZIPFoundation" /* ZIPFoundation */,
+				"ZIPFoundation::SwiftPMPackageDescription" /* ZIPFoundationPackageDescription */,
+				"toptal2freeagent::toptal2freeagent" /* toptal2freeagent */,
+				"toptal2freeagent::SwiftPMPackageDescription" /* toptal2freeagentPackageDescription */,
+				"toptal2freeagent::toptal2freeagentPackageTests::ProductTarget" /* toptal2freeagentPackageTests */,
+				"toptal2freeagent::toptal2freeagentTests" /* toptal2freeagentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_102 /* Archive+Reading.swift in Sources */,
+				OBJ_103 /* Archive+Writing.swift in Sources */,
+				OBJ_104 /* Archive.swift in Sources */,
+				OBJ_105 /* Data+Compression.swift in Sources */,
+				OBJ_106 /* Data+Serialization.swift in Sources */,
+				OBJ_107 /* Entry.swift in Sources */,
+				OBJ_108 /* FileManager+ZIP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_115 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_121 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_134 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_145 /* XCTestManifests.swift in Sources */,
+				OBJ_146 /* toptal2freeagentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_59 /* CoreXLSX.swift in Sources */,
+				OBJ_60 /* Relationships.swift in Sources */,
+				OBJ_61 /* Worksheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_74 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_79 /* DecodingErrorExtension.swift in Sources */,
+				OBJ_80 /* XMLDecoder.swift in Sources */,
+				OBJ_81 /* XMLDecodingStorage.swift in Sources */,
+				OBJ_82 /* XMLKeyedDecodingContainer.swift in Sources */,
+				OBJ_83 /* XMLUnkeyedDecodingContainer.swift in Sources */,
+				OBJ_84 /* EncodingErrorExtension.swift in Sources */,
+				OBJ_85 /* XMLEncoder.swift in Sources */,
+				OBJ_86 /* XMLEncodingStorage.swift in Sources */,
+				OBJ_87 /* XMLReferencingEncoder.swift in Sources */,
+				OBJ_88 /* ISO8601DateFormatter.swift in Sources */,
+				OBJ_89 /* XMLKey.swift in Sources */,
+				OBJ_90 /* XMLStackParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_97 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CoreXLSX::CoreXLSX" /* CoreXLSX */;
+			targetProxy = D19A42822190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ZIPFoundation::ZIPFoundation" /* ZIPFoundation */;
+			targetProxy = D19A42852190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "XMLParsing::XMLParsing" /* XMLParsing */;
+			targetProxy = D19A42862190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "toptal2freeagent::toptal2freeagentTests" /* toptal2freeagentTests */;
+			targetProxy = D19A428B2190643E004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "toptal2freeagent::toptal2freeagent" /* toptal2freeagent */;
+			targetProxy = D19A42872190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CoreXLSX::CoreXLSX" /* CoreXLSX */;
+			targetProxy = D19A42882190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ZIPFoundation::ZIPFoundation" /* ZIPFoundation */;
+			targetProxy = D19A42892190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "XMLParsing::XMLParsing" /* XMLParsing */;
+			targetProxy = D19A428A2190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ZIPFoundation::ZIPFoundation" /* ZIPFoundation */;
+			targetProxy = D19A42832190643D004EA775 /* PBXContainerItemProxy */;
+		};
+		OBJ_67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "XMLParsing::XMLParsing" /* XMLParsing */;
+			targetProxy = D19A42842190643D004EA775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/ZIPFoundation_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPFoundation;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = ZIPFoundation;
+			};
+			name = Release;
+		};
+		OBJ_112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/toptal2freeagent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = toptal2freeagent;
+			};
+			name = Debug;
+		};
+		OBJ_119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/toptal2freeagent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+					"@executable_path",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = toptal2freeagent;
+			};
+			name = Release;
+		};
+		OBJ_131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/toptal2freeagentTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = toptal2freeagentTests;
+			};
+			name = Debug;
+		};
+		OBJ_143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/toptal2freeagentTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = toptal2freeagentTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/CoreXLSX_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CoreXLSX;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CoreXLSX;
+			};
+			name = Debug;
+		};
+		OBJ_57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/CoreXLSX_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CoreXLSX;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = CoreXLSX;
+			};
+			name = Release;
+		};
+		OBJ_71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/XMLParsing_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = XMLParsing;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = XMLParsing;
+			};
+			name = Debug;
+		};
+		OBJ_77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/XMLParsing_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = XMLParsing;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = XMLParsing;
+			};
+			name = Release;
+		};
+		OBJ_94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = toptal2freeagent.xcodeproj/ZIPFoundation_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ZIPFoundation;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = ZIPFoundation;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_111 /* Build configuration list for PBXNativeTarget "ZIPFoundationPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_112 /* Debug */,
+				OBJ_113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_117 /* Build configuration list for PBXNativeTarget "toptal2freeagent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_118 /* Debug */,
+				OBJ_119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_130 /* Build configuration list for PBXNativeTarget "toptal2freeagentPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_131 /* Debug */,
+				OBJ_132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_136 /* Build configuration list for PBXAggregateTarget "toptal2freeagentPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_137 /* Debug */,
+				OBJ_138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_141 /* Build configuration list for PBXNativeTarget "toptal2freeagentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_142 /* Debug */,
+				OBJ_143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "toptal2freeagent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_55 /* Build configuration list for PBXNativeTarget "CoreXLSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_56 /* Debug */,
+				OBJ_57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_70 /* Build configuration list for PBXNativeTarget "CoreXLSXPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_75 /* Build configuration list for PBXNativeTarget "XMLParsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_76 /* Debug */,
+				OBJ_77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_93 /* Build configuration list for PBXNativeTarget "XMLParsingPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_94 /* Debug */,
+				OBJ_95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_98 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_99 /* Debug */,
+				OBJ_100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
