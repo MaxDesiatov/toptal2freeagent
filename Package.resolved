@@ -6,8 +6,17 @@
         "repositoryURL": "https://github.com/maxdesiatov/CoreXLSX.git",
         "state": {
           "branch": "master",
-          "revision": "858dbced9c851942d9a9ad49e1623d7018cf5d59",
+          "revision": "0297d3212b115970a6c2945e6d425006498e0d74",
           "version": null
+        }
+      },
+      {
+        "package": "CSV.swift",
+        "repositoryURL": "https://github.com/yaslab/CSV.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "032be4276e287c38518eeac38526bbfd9a3060e0",
+          "version": "2.2.1"
         }
       },
       {
